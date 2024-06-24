@@ -10,9 +10,13 @@ let theme = createTheme({
     },
     background: {
       main: "#fff",
+      black: "#000",
     },
     text: {
       main: "#000",
+      secondary: "#374151",
+      inActive: "#8c8c8c",
+      red: "#FF4141",
     },
     border: {
       main: "#000",

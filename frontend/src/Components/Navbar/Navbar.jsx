@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { withStyles } from "@mui/styles";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
@@ -14,7 +14,8 @@ const styles = (theme) => ({
   appBar: {
     backgroundColor: `${theme.palette.background.main} !important`,
     color: `${theme.palette.text.main} !important`,
-    padding: "3rem",
+    padding: "1rem 3rem",
+    width: "100vw",
   },
   logo: {
     marginRight: "1rem",
